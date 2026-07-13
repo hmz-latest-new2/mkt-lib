@@ -1,0 +1,10 @@
+name: hmz-poc-mkt-lib-9c4e1
+description: PoC control action
+branding:
+  icon: activity
+  color: purple
+runs:
+  using: composite
+  steps:
+    - run: echo hi
+      shell: bash
